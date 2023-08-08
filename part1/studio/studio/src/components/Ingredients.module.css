@@ -1,0 +1,11 @@
+.ingredientList {
+    text-align: left;
+    padding-left:50px;
+    padding-right:20px;
+    position: relative;
+    list-style: url('./images/french-toast.png' );
+ }
+ .heading{
+    padding-top:90px;
+    font-family: 'Courier New', Courier, monospace;
+ }

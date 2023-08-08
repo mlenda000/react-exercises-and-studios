@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -27,6 +28,18 @@
 .App-link {
   color: #61dafb;
 }
+.recipePhotoBlock {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:blanchedalmond;
+  padding:0;
+  border-radius: 25px;
+}
+.border{
+  border-left: 25px solid;
+  border-right:25px solid;
+  background-color: color;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,9 +49,3 @@
     transform: rotate(360deg);
   }
 }
-.bg{
-  background-image: url('https://png.pngtree.com/png-clipart/20190515/original/pngtree-vector-3d-soap-transparent-bubbles-background.-banner-with-water-png-image_3576191.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-

@@ -1,0 +1,33 @@
+.recipeAuthorBlock {
+
+    justify-content: space-evenly;
+    }
+    
+    .imageUpdates {
+       object-fit: contain;
+       max-height:350px;
+       width:100%;
+       border-radius: 20px;
+       display: block;
+    }
+    .head{
+        object-fit:contain;
+        width:100%;
+        padding-top:15px;
+        padding-bottom:5px;
+        margin:0;
+        background-color: black;
+        border-radius:0 0 20px 20px; 
+
+    }
+    .title{
+        text-align: center;
+        width:100%;
+        font-family:'Courier New', Courier, monospace
+
+    }
+    .name{
+        display: block;
+        text-align: left;
+
+    }
