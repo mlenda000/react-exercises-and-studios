@@ -17,7 +17,7 @@ export default function App() {
       {/* <SaveButton /> */}
       {/* <ClickedButton/> */}
       <Button saveButton={true} />
-       <AuthorInfo />
+      <AuthorInfo />
       <IngredientList />  
     </>
   );
