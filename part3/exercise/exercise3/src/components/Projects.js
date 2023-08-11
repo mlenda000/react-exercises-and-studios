@@ -1,9 +1,7 @@
 import data from './data.json';
 import {useState} from 'react';
-import style from './style.css';
-console.log(data);
-console.log(data.projects)
-console.log(data.projects.length)
+
+
 export default function MyProjects(){
 const [index, setIndex] = useState(0);
     function handleClick() {

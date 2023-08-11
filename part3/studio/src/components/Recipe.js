@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.the-girl-who-ate-everything.com/";
+   let authorPhoto = "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2017/06/christy-denney.jpeg";
+   let authorName = "Girl Who Ate Everything";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ['1 cup creamy peanut butter', '1 cup firmly packed brown sugar', '1 large egg','1 teaspoon baking soda', '1/2 cup milk chocolate chips'];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>5-Ingredient Peanut Butter Chocolate Chip Cookies</h1>
+            <p>If there were a contest for least ingredients in a chocolate chip peanut butter cookie, we\’re pretty sure ours would win first place. Super chewy and ready in about 15 minutes, this flour-free dessert is perfect for late-night and last-minute cravings.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://images-gmi-pmc.edge-generalmills.com/0edde777-ffbd-4600-abd9-c58342a906cd.jpg" alt="cookie pic" className="imageUpdates"/>
    );
 }
 
