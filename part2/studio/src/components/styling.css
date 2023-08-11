@@ -27,9 +27,11 @@
   padding-top:9%;
  }
  .authorImage {
-   border-radius: 50%;
-   width: 70px; 
+   border-radius: 20px;
+   width: 75px; 
    margin-left: 50%;
+   padding-bottom:0;
+   margin-bottom:0;
  }
  .authorInfo{
   display: flex;
@@ -56,9 +58,11 @@
 
  }
  .stars{
+  width:100%;
+  text-align: right;
   padding-top:0;
+  padding-left:8%;
   margin-top: 0;
-  padding-left:70%;
  }
  .ingredient{
   color:bisque;

@@ -6,6 +6,7 @@ html{
   background-color:rgb(51, 3, 84);
   border-radius: 25px;
   width:50%;
+  border:3px solid gray;
 }
 .topBar{
   display:flex;
