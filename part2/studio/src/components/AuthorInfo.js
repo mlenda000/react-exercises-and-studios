@@ -17,11 +17,15 @@ function AuthorInfo() {
     <a href={data.website}>{data.author}'s Website</a>
     </div>
     ));
-  return (<div>
-    {recipeAuthorImage};
-    {recipeAuthor}
-    {recipeWebsite}
+  return (
+    <div className='authorInfo'>
+      <div className='info'>
+      {recipeAuthor}
+      {recipeWebsite}
     </div>
+    {recipeAuthorImage};
+    </div>
+    
     )
  }
  

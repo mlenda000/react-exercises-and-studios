@@ -10,15 +10,19 @@ import ClickedButton from "./components/ClickedButton";
 
 export default function App() {
   return (
-    <>
+    <div className='mainContent'>
       <RecipeImage />
-      <RecipeName />
-      <RateARecipe rating={4} />
-      {/* <SaveButton /> */}
-      {/* <ClickedButton/> */}
-      <Button saveButton={true} />
-      <AuthorInfo />
-      <IngredientList />  
-    </>
+      <div>
+        <RecipeName />
+        <RateARecipe rating={4} />
+        <div className='topBar'>
+          <div className='button'>
+            <Button saveButton={true} />
+          </div>
+        <AuthorInfo />
+        </div>
+        <IngredientList />  
+      </div>
+    </div>
   );
 }

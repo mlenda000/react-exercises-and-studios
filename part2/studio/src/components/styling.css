@@ -5,7 +5,9 @@
    border-radius: 25px;
    font-size: 20px;
    padding: 10px;
-   margin: 10px;
+   margin-left: 30%;
+   max-width: 100px;
+   max-height: 50px;
  }
  
  #saveButton:hover {
@@ -21,16 +23,47 @@
    padding: 10px;
    margin: 10px;
  }
- 
+ .button{
+  padding-top:9%;
+ }
  .authorImage {
    border-radius: 50%;
-   width: 60px;
-   height: 70px;
-   margin: 10px;
+   width: 70px; 
+   margin-left: 50%;
  }
- 
+ .authorInfo{
+  display: flex;
+  padding-left: 10%;
+ }
+ .info{
+  padding-top:12%;
+ }
  .recipeImage {
-   width: 20%;
-   display: block;
-   margin: 10px;
+  max-width:300px; 
+  width: 100%;
+  display: block;
+  margin: 10px;
+  border-radius: 25px;
+  padding:0;
+  margin:0;
+ }
+ .name{
+  color:antiquewhite;
+  padding-left: 4%;
+  padding-bottom:0;
+  margin-bottom:0;
+  width:100%;
+
+ }
+ .stars{
+  padding-top:0;
+  margin-top: 0;
+  padding-left:70%;
+ }
+ .ingredient{
+  color:bisque;
+  list-style: ;
+  padding-left: 30%;
+  padding-top:0;
+  margin-top:0;
  }
